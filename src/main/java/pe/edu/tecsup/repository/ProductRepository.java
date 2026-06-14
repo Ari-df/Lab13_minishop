@@ -1,4 +1,7 @@
 package pe.edu.tecsup.repository;
 
-public class ProductRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import pe.edu.tecsup.model.Product;
+
+public interface ProductRepository extends JpaRepository<Product, Long> {
 }
