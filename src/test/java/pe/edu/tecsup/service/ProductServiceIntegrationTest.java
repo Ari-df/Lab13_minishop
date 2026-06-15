@@ -23,7 +23,7 @@ public class ProductServiceIntegrationTest {
 
         assertNotNull(guardado.getId());
         assertEquals("Laptop", guardado.getNombre());
-        assertEquals(1500.0, guardado.getPrecio());
+        assertEquals(99999.0, guardado.getPrecio());
     }
 
     @Test
